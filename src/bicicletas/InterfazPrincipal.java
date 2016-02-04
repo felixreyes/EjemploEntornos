@@ -212,8 +212,8 @@ public class InterfazPrincipal extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                System.out.println("Estableciendo comentarios");
                 new InterfazPrincipal().setVisible(true);
+                System.out.println("PULL TO REQUEST");
             }
         });
     }
