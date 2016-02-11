@@ -212,9 +212,9 @@ public class InterfazPrincipal extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                System.out.println("EJEMPLO FORKEADO");
                 new InterfazPrincipal().setVisible(true);
-                System.out.println("PULL TO REQUEST");
-            }
+                           }
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
